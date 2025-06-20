@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Cek Nilai Mutu</h1>
+
+    <!-- 1. Struktur HTML dengan input NIM, Nilai mata Kuliah, dan Tombol cek nilai -->
+    <label for="nim">NIM :</label>
+    <input type="text" id="nim" required>
+    <br><br>
+
+    <label for="nilai">Nilai Mata Kuliah :</label>
+    <input type="number" id="nilai" required>
+    <br><br>
+
+    <!-- 2. Klik Tombol untuk js -->
+    <button onclick="CekNilai()">Cek Nilai</button>
+
+    <!-- 4. Menampilkan hasil (huruf mutu / pesan error) untuk js -->
+    <p id="hasil"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>

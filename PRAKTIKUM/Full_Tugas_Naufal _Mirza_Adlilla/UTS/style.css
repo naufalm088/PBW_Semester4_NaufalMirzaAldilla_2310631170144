@@ -1,0 +1,125 @@
+/* Reset dan font dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    background: linear-gradient(to right, #1e3c72, #2a5298); /* gradasi biru mewah */
+    color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+  }
+  
+  /* Container utama */
+  .container {
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    border-radius: 16px;
+    padding: 40px;
+    max-width: 900px;
+    width: 100%;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+  }
+  
+  /* Header */
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    color: #f1c40f;
+    margin-bottom: 10px;
+  }
+  
+  header h2 {
+    font-size: 1.5em;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 1em;
+    color: #dcdcdc;
+  }
+  
+  /* Bagian tombol */
+  section.buttons {
+    margin-top: 20px;
+  }
+  
+  h3 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 1.4em;
+    color: #ecf0f1;
+    text-align: center;
+  }
+  
+  .btn-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    text-decoration: none;
+    background-color: #3498db;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+  }
+  
+  .btn.disabled {
+    background-color: #bdc3c7;
+    pointer-events: none;
+    color: #333;
+    cursor: not-allowed;
+  }
+  
+  /* Tombol GitHub */
+  .github-btn {
+    display: inline-block;
+    background-color: #2ecc71;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 28px;
+    border-radius: 8px;
+    font-size: 1em;
+    font-weight: bold;
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    transition: background-color 0.3s ease;
+  }
+  
+  .github-btn:hover {
+    background-color: #27ae60;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #cccccc;
+  }
+  
