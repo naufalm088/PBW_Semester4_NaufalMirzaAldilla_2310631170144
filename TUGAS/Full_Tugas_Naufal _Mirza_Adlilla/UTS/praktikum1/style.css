@@ -1,0 +1,21 @@
+h1 {
+    color: blue;
+}
+
+img {
+    border: 2px solid blue;
+}
+
+th {
+    background-color: blue;
+    color: white;
+}
+
+a {
+    display: inline-block;
+    background: blue;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 4px;
+}
